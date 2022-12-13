@@ -47,7 +47,22 @@
             <div class="row gx-3 gy-4">
                 <div class="col-sm-3 col-md-3 col-4 col-lg-4">
                     <div class="card">
-                        <img src="https://www.betaarchive.com/wiki/images/4/43/Whistler_2428_OOBE.PNG" alt="" class="card-img-top">
+                        <div class="carousel slide w-100 d-flex align-items-stretch h-100" data-bs-ride="carousel" id="controlMeCarousel">
+                            <div class="carousel-indicators">
+                                <button data-bs-target="#controlMeCarousel" data-bs-slide-to="0" class="active"></button>
+                            </div>
+                            <div class="carousel-inner card-img-top">
+                                <div class="carousel-item active">
+                                    <img src="https://www.betaarchive.com/wiki/images/4/43/Whistler_2428_OOBE.PNG" class="d-block carousel-img">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" data-bs-target="#controlMeCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" data-bs-target="#controlMeCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
                         <div class="card-body">
                             <h3 class="card-title">Windows Whistler</h3>
                             <h4 class="card-subtitle text-secondary">Beta 1</h4>
